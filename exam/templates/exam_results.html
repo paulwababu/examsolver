@@ -1,0 +1,122 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="https://getbootstrap.com/docs/4.0/assets/img/favicons/favicon.ico">
+
+    <title>Top navbar example for Bootstrap</title>
+
+
+    <!-- Bootstrap core CSS -->
+    <link href="https://getbootstrap.com/docs/4.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="https://getbootstrap.com/docs/4.0/examples/navbar-static/navbar-top.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+
+
+    <main role="main" class="container">
+        <h1>Researched Questions with their links</h1>
+
+        {% for aa in q1res %}
+      <div class="jumbotron">
+        <h3>{{aa.title}}</h3>
+        <p class="lead">{{aa.description}}</p>
+        <a class="btn btn-lg btn-primary" href="{{aa.link}}" role="button">Site&raquo;</a>
+      </div>
+      {% endfor %}
+
+      {% for bb in q2res %}
+      <div class="jumbotron">
+        <h3>{{bb.title}}</h3>
+        <p class="lead">{{bb.description}}</p>
+        <a class="btn btn-lg btn-primary" href="{{bb.link}}" role="button">Site&raquo;</a>
+      </div>
+      {% endfor %}
+
+      {% for tt in tester %}
+      <div class="jumbotron">
+        <h3>{{tt.title}}</h3>
+        <p class="lead">{{tt.description}}</p>
+        <a class="btn btn-lg btn-primary" href="{{tt.link}}" role="button">Site&raquo;</a>
+      </div>
+      {% endfor %}
+
+      {% for ee in q4res %}
+      <div class="jumbotron">
+        <h3>{{ee.title}}</h3>
+        <p class="lead">{{ee.description}}</p>
+        <a class="btn btn-lg btn-primary" href="{{ee.link}}" role="button">Site&raquo;</a>
+      </div>
+      {% endfor %}
+
+      {% for ff in q5res %}
+      <div class="jumbotron">
+        <h3>{{ff.title}}</h3>
+        <p class="lead">{{ff.description}}</p>
+        <a class="btn btn-lg btn-primary" href="{{ff.link}}" role="button">Site&raquo;</a>
+      </div>
+      {% endfor %}
+
+      {% for gg in q6res %}
+      <div class="jumbotron">
+        <h3>{{gg.title}}</h3>
+        <p class="lead">{{gg.description}}</p>
+        <a class="btn btn-lg btn-primary" href="{{gg.link}}" role="button">Site&raquo;</a>
+      </div>
+      {% endfor %}
+
+      {% for hh in q7res %}
+      <div class="jumbotron">
+        <h3>{{hh.title}}</h3>
+        <p class="lead">{{hh.description}}</p>
+        <a class="btn btn-lg btn-primary" href="{{hh.link}}" role="button">Site&raquo;</a>
+      </div>
+      {% endfor %}
+
+      {% for ii in q8res %}
+      <div class="jumbotron">
+        <h3>{{ii.title}}</h3>
+        <p class="lead">{{ii.description}}</p>
+        <a class="btn btn-lg btn-primary" href="{{ii.link}}" role="button">Site&raquo;</a>
+      </div>
+      {% endfor %}
+
+      {% for jj in q9res %}
+      <div class="jumbotron">
+        <h3>{{jj.title}}</h3>
+        <p class="lead">{{jj.description}}</p>
+        <a class="btn btn-lg btn-primary" href="{{jj.link}}" role="button">Site&raquo;</a>
+      </div>
+      {% endfor %}
+
+
+      {% for kk in q10res %}
+      <div class="jumbotron">
+        <h3>{{kk.title}}</h3>
+        <p class="lead">{{kk.description}}</p>
+        <a class="btn btn-lg btn-primary" href="{{kk.link}}" role="button">Site&raquo;</a>
+      </div>
+      {% endfor %}
+
+
+
+
+    </main>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="https://getbootstrap.com/docs/4.0/assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+    <script src="https://getbootstrap.com/docs/4.0/assets/js/vendor/popper.min.js"></script>
+    <script src="https://getbootstrap.com/docs/4.0/dist/js/bootstrap.min.js"></script>
+  </body>
+</html>
